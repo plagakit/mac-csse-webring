@@ -1,15 +1,16 @@
 <!--
-  McMaster CS & SE Webring – snippet to add to YOUR site (e.g. seifotefa.com)
-  Mac-themed colors: maroon #7A003C, gold #FDBF57, grey #495965
+  McMaster CS & SE Webring – minimal logo embed
+  Live webring: https://mac-csse-webring.vercel.app/
 
-  1. Replace WEBRING_URL with your webring’s full URL (e.g. https://yourusername.github.io/mac-csse-webring/)
-  2. Replace YOUR_SITE with your site’s domain only (e.g. seifotefa.com) – no https://
-  3. Paste this block into your site’s footer or sidebar. Arrows only: ← goes to prev, → goes to next.
+  1. Replace YOUR_SITE with your site’s domain only (e.g. seifotefa.com) – no https://
+  2. Paste into your site’s footer or sidebar. ← = previous site, logo = webring home, → = next site.
+  3. Arrows use color: inherit so they match your site; for dark backgrounds use style="color: #fff" on the outer element.
 -->
 
-<p style="font-size: 0.9em; font-family: system-ui, sans-serif; color: #495965;">
-  <a href="WEBRING_URL" style="color: #7A003C; text-decoration: none; font-weight: 500;">McMaster CS &amp; SE Webring</a>
-  ·
-  <a href="WEBRING_URL#YOUR_SITE?nav=prev" style="color: #7A003C;" title="Previous site">←</a>
-  <a href="WEBRING_URL#YOUR_SITE?nav=next" style="color: #7A003C;" title="Next site">→</a>
+<p style="display: inline-flex; align-items: center; gap: 0.5rem; font-size: 1rem;">
+  <a href="https://mac-csse-webring.vercel.app/#YOUR_SITE?nav=prev" style="color: inherit; text-decoration: none;" title="Previous site">←</a>
+  <a href="https://mac-csse-webring.vercel.app/" style="line-height: 0;" title="McMaster CS &amp; SE Webring">
+    <img src="https://mac-csse-webring.vercel.app/assets/Uni_mcmaster_logo.svg.png" alt="McMaster CS &amp; SE Webring" style="height: 24px; width: auto; display: block; vertical-align: middle;">
+  </a>
+  <a href="https://mac-csse-webring.vercel.app/#YOUR_SITE?nav=next" style="color: inherit; text-decoration: none;" title="Next site">→</a>
 </p>
